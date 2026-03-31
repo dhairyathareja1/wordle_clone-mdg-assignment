@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Wordle</title>
+    <link rel="stylesheet" href="indexpage.css" />
+    <link rel="stylesheet" href="aboutpage.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="leftside">Wordle Clone</div>
+      <div class="rightside">
+        <a href="index.html">Game</a>
+        <a href="about.html">About</a>
+      </div>
+    </div>
+
+    <section class="intro">
+      <div class="introcontent">
+        <h1>Wordle Game (Clone)</h1>
+        <p>A simple word guessing game</p>
+      </div>
+    </section>
+
+    <div class="about">
+      <section>
+        <h2>Project Idea</h2>
+        <p>
+          This project is an attempt to create a clone of the Wordle game. The
+          player has limited attempts (6 attempts) to guess a hidden 5-letter
+          word, receiving feedback after each guess through different colored
+          tiles.
+        </p>
+      </section>
+
+      <section>
+        <h2>Features</h2>
+        <ul>
+          <li>6 attempts to guess the word</li>
+          <li>Win or Lose check and output</li>
+          <li>Option to Restart</li>
+          <li>Win streak tracking using localStorage</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Rules and What I learned</h2>
+        <p>
+          You enter a 5 letter word. The game changes the colors of the tiles
+          depending on whether the letter is present in the word or not.
+          <br />
+          If a letter is present and is in its correct position, tile becomes
+          GREEN.
+          <br />
+          If a letter is present but is not in its correct position, tile
+          becomes YELLOW.
+          <br />
+          If a letter is not present, the tile stays GREY.
+          <br />
+          This way, a user can get to know whether or not they're guessing
+          correct or not.
+          <br />
+          <br />
+          I learned DOM manipulation using JavaScript.
+          <br />
+          I also learnt some new CSS features like 'hover'. <br />
+          I also got good exposure to using Event Listeners. <br />
+          Most importantly, I learnt how and when to use localStorage.
+        </p>
+      </section>
+
+      <section>
+        <h2>Created By</h2>
+        <p>Dhairya Thareja</p>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
